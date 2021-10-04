@@ -1,4 +1,17 @@
 #Leetode Questions List
 
-**1748. Sum of Unique Elements **   [title](https://leetcode.com/problems/sum-of-unique-elements/)
-
+**1748 ** [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)
+**977** [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+**** [first non repeated integer](https://www.geeksforgeeks.org/non-repeating-element/)
+**383** [Ransom Note](https://leetcode.com/problems/ransom-note/)
+**** [Letter followed by Digit]()
+**867** [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+**243** [Shortest Word Distance](https://leetcode.com/problems/sign-of-the-product-of-an-array/)
+**283** [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+**48** [Rotate Image](https://leetcode.com/problems/rotate-image/)
+**54** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+**205** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+**425** [Add Strings](https//leetcode.com/problems/add-strings/)
+**125** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+**151** [Reverse words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+**443** [String Compression](https://leetcode.com/problems/string-compression/)
