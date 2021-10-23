@@ -1,2 +1,17 @@
-#Fall 2021 info 5100
-Fall 2021 info 5100 folder
+#Leetode Questions List
+
+1. **1748 ** [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)
+2. **977** [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+3. **** [first non repeated integer](https://www.geeksforgeeks.org/non-repeating-element/)
+4. **383** [Ransom Note](https://leetcode.com/problems/ransom-note/)
+5. **** [Letter followed by Digit]()
+6. **867** [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+7. **243** [Shortest Word Distance](https://leetcode.com/problems/sign-of-the-product-of-an-array/)
+8. **283** [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+9. **48** [Rotate Image](https://leetcode.com/problems/rotate-image/)
+10. **54** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+11. **205** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+12. **425** [Add Strings](https//leetcode.com/problems/add-strings/)
+13. **125** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+14. **151** [Reverse words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+15. **443** [String Compression](https://leetcode.com/problems/string-compression/)
