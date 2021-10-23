@@ -30,6 +30,8 @@ public class Main {
         System.out.println("Max value of minShort is " + minShort);
 
 
+
+
         // we are using 32 bit float
         float myFloat = 5.23f;
         float maxFloat = Float.MAX_VALUE;
@@ -69,8 +71,124 @@ public class Main {
         System.out.println("Max value of maxByte is " + maxByte);
         System.out.println("Max value of maxByte is " + minByte);
 
+        printDayOfTheWeek(0);
+        printDayOfTheWeekSwitch(3);
+        printMonth("Jan");
+//        printSeason("Oct");
+
+
 
 
     }
+
+    static void printDayOfTheWeek(int day){
+        // Sun =0, Mon =1....
+        if(day ==0){
+            System.out.println("Today is Sunday");
+        }else if(day==1){
+            System.out.println("Today is Monday");
+        }else if(day==2){
+            System.out.println("Today is Tuesday");
+        }else if(day==3){
+            System.out.println("Today is Wednesday");
+        }else if(day==4){
+            System.out.println("Today is Thursday");
+        }else if(day==5){
+            System.out.println("Today is Friday");
+        }else if(day==6){
+            System.out.println("Today is Saturday");
+        }else{
+            System.out.println("Today is invalid day");
+        }
+    }
+
+    static void printDayOfTheWeekSwitch(int day){
+        switch(day){
+            case 0:
+                System.out.println("Today is Sunday");
+                break;
+            case 1:
+                System.out.println("Today is Monday");
+                break;
+            case 2:
+                System.out.println("Today is Tuesday");
+                break;
+            case 3:
+                System.out.println("Today is Wednesday");
+                break;
+            case 4:
+                System.out.println("Today is Thursday");
+                break;
+            case 5:
+                System.out.println("Today is Friday");
+                break;
+            case 6:
+                System.out.println("Today is Saturday");
+                break;
+            default:
+                System.out.println("Today is invalid day");
+                break;
+
+        }
+
+    }
+
+    static void printMonth(String month){
+        switch(month){
+            case "Jan":
+                System.out.println("January");
+                break;
+            case "Feb":
+                System.out.println("february");
+                break;
+            case "Mar":
+                System.out.println("March");
+                break;
+            case "Apr":
+                System.out.println("April");
+                break;
+            case "May":
+                System.out.println("May");
+                break;
+            case "Jun":
+                System.out.println("June");
+                break;
+            case "Jul":
+                System.out.println("July");
+                break;
+            case "Aug":
+                System.out.println("August");
+                break;
+            case "Sep":
+                System.out.println("september");
+                break;
+            case "Oct":
+                System.out.println("October");
+                break;
+            case "Nov":
+                System.out.println("November");
+                break;
+            case "Dec":
+                System.out.println("December");
+                break;
+        }
+    }
+
+//    static void printSeason(String month){
+//        switch(month){
+//            case "Jan","Feb","Mar":
+//                System.out.println("Spring");
+//                break;
+//            case "Apr","May","Jun":
+//                System.out.println("Summer");
+//                break;
+//            case "Jul","Aug","Sep":
+//                System.out.println("Fall");
+//                break;
+//            case "Oct","Nov","Dec":
+//                System.out.println("Winter");
+//                break;
+//        }
+//    }
 
 }
