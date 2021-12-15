@@ -3,28 +3,30 @@ package Question1;
 class Roomba implements iRobot{
     int[][] dir = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
     int[][] room;
-    int x = 0;
-    int y = 0;
-    Direction direction = Direction.DOWN;
+    int a = 0;
+    int b = 0;
+    Direction direction;
+    
 
     public Roomba(int[][] room) {
         this.room = room;
+        Direction direction = Direction.DOWN;
     }
 
     @Override
     public boolean move() {
-        int dirction = -1;
-        if(direction == Direction.UP) dirction  = 0;
-        else if(direction == Direction.DOWN) dirction = 1;
-        else if(direction == Direction.LEFT) dirction = 2;
-        else if(direction == Direction.RIGHT) dirction = 3;
+        int dirct = -1;
+        if(direction == Direction.UP) dirct  = 0;
+        else if(direction == Direction.DOWN) dirct = 1;
+        else if(direction == Direction.LEFT) dirct = 2;
+        else if(direction == Direction.RIGHT) dirct = 3;
 
-        int newx = x + dir[dirction][0];
-        int newy = y + dir[dirction][1];
+        int newX = a + dir[dirct][0];
+        int newY = b + dir[dirct][1];
 
-        if(newx >= 0 && newx < room.length && newy >= 0 && newy < room[0].length && room[newx][newy] != -1) {
-            x = newx;
-            y = newy;
+        if(newX >= 0 && newX < room.length && newY >= 0 && newY < room[0].length && room[newX][newY] != -1) {
+            a = newX;
+            b = newY;
             return true;
         }
         return false;
@@ -64,6 +66,6 @@ class Roomba implements iRobot{
 
     @Override
     public void clean() {
-        room[x][y] = 1;
+        room[a][b] = 1;
     }
 }
